@@ -8,7 +8,7 @@ Source code package for the FYP2 project:
 
 - Student name: DO WAI LUNG
 - Student ID: 1211109457
-- Programme: Final Year Project 2
+- Programme: BCS (Hons) (Artificial Intelligence)
 - Session: March/April 2026
 - Faculty: Faculty of Information Science and Technology
 - University: Multimedia University
