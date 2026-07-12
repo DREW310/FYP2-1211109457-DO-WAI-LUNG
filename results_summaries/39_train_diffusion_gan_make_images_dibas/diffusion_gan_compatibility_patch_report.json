@@ -1,0 +1,43 @@
+{
+  "notebook_tag": "39_train_diffusion_gan_make_images_dibas",
+  "patch_date": "2026-05-12",
+  "reason": "Compatibility with the Windows fyp2 environment and traceable kimg-specific snapshot files. Network, loss, data, seeds, kimg, and selection protocol are unchanged.",
+  "patches": [
+    {
+      "file_path": "third_party/Diffusion-GAN/diffusion-stylegan2/train.py",
+      "status": "already_ok_or_pattern_not_present",
+      "backup_path": null,
+      "applied_replacements": []
+    },
+    {
+      "file_path": "third_party/Diffusion-GAN/diffusion-stylegan2/torch_utils/misc.py",
+      "status": "already_ok_or_pattern_not_present",
+      "backup_path": null,
+      "applied_replacements": []
+    },
+    {
+      "file_path": "third_party/Diffusion-GAN/diffusion-stylegan2/torch_utils/custom_ops.py",
+      "status": "already_ok_or_pattern_not_present",
+      "backup_path": null,
+      "applied_replacements": []
+    },
+    {
+      "file_path": "third_party/Diffusion-GAN/diffusion-stylegan2/training/training_loop.py",
+      "status": "patched",
+      "backup_path": "third_party/Diffusion-GAN/diffusion-stylegan2/training/training_loop.py.fyp2_snapshot_backup",
+      "applied_replacements": [
+        {
+          "old_text": "snapshot_pkl = misc.get_ckpt_path(run_dir)",
+          "new_text": "snapshot_pkl = os.path.join(run_dir, f'network-snapshot-{cur_nimg//1000:06d}.pkl')",
+          "reason": "Save kimg-specific snapshots for fixed KID selection."
+        }
+      ]
+    },
+    {
+      "file_path": "third_party/Diffusion-GAN/diffusion-stylegan2",
+      "status": "already_ok_or_pattern_not_present",
+      "backup_path": null,
+      "applied_replacements": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "dataset_name": "dibas",
+  "source_notebook_tag": "04_train_gan_make_images_dibas",
+  "notebook_tag": "35_select_stylegan2_sparse_snapshots_dibas",
+  "no_gan_retraining": true,
+  "snapshot_selection_kimg": [
+    40,
+    80,
+    120,
+    160,
+    200
+  ],
+  "kid_metric_name": "kid50k_full",
+  "generated_manifest_256": "manifests/stylegan2_sparse_generated_manifest_256.csv",
+  "generated_manifest_224": "manifests/stylegan2_sparse_generated_manifest_224.csv",
+  "source_type": "stylegan2_sparse_generated"
+}

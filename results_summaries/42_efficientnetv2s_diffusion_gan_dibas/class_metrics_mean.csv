@@ -1,0 +1,3 @@
+class_name,mean_precision,std_precision,mean_recall,std_recall,mean_f1,std_f1
+cocci,0.993785,0.004409,0.995293,0.00371,0.994527,0.002158
+bacilli,0.996684,0.002599,0.995588,0.003155,0.99613,0.001534

@@ -1,0 +1,52 @@
+# Large datasets and generated files
+raw_data/
+Dataset-Bacteria/
+patches_224/
+gan_patches_256/
+gan_images_224/
+gan_images_256/
+checkpoints/
+results/
+
+# Keep small exported summaries only
+!results_summaries/
+!results_summaries/**
+
+# Python and notebook cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Local build/cache folders
+.matplotlib_cache/
+.cache/
+torch_extensions/
+
+# Model checkpoints and large binary experiment outputs
+*.pt
+*.pth
+*.pkl
+*.ckpt
+*.npz
+
+# Local backup files
+*.bak
+*.backup
+*.fyp2_backup
+*.fyp2_*_backup
+
+# Compressed archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# OS files
+.DS_Store
+._*

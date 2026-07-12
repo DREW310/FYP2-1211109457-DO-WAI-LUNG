@@ -1,0 +1,5 @@
+true_class,predicted_class,mean_row_rate,std_row_rate
+cocci,cocci,0.99501,0.003513
+cocci,bacilli,0.00499,0.003513
+bacilli,cocci,0.003649,0.003142
+bacilli,bacilli,0.996351,0.003142

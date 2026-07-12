@@ -1,0 +1,2 @@
+seed_count,fold_count,run_count,mean_accuracy,std_accuracy,mean_balanced_accuracy,std_balanced_accuracy,mean_macro_precision,std_macro_precision,mean_macro_recall,std_macro_recall,mean_macro_f1,std_macro_f1
+3,5,15,0.971934,0.011082,0.970618,0.012443,0.972486,0.01041,0.970618,0.012443,0.971266,0.011404

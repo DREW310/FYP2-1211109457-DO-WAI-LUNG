@@ -1,0 +1,4 @@
+model_name,accuracy_gain,balanced_accuracy_gain,macro_precision_gain,macro_recall_gain,macro_f1_gain
+convnextv2nano,0.000393,-5.4e-05,0.000585,-5.4e-05,0.000361
+efficientnetv2s,0.00067,0.000542,0.000829,0.000542,0.000689
+resnet50,0.003693,0.004152,0.003354,0.004152,0.003828

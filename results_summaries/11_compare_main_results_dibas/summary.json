@@ -1,0 +1,11 @@
+{
+  "notebook_tag": "11_compare_main_results_dibas",
+  "run_tags": [
+    "05_resnet50_baseline_dibas",
+    "06_resnet50_gan_dibas",
+    "07_efficientnetv2s_baseline_dibas",
+    "08_efficientnetv2s_gan_dibas",
+    "09_convnextv2nano_baseline_dibas",
+    "10_convnextv2nano_gan_dibas"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "notebook_tag": "40_train_diffusion_gan_make_images_dataset2",
+  "patch_date": "2026-05-13",
+  "reason": "Compatibility with the Windows fyp2 environment and traceable kimg-specific snapshot files. Network, loss, data, seeds, kimg, and selection protocol are unchanged.",
+  "patches": [
+    {
+      "file_path": "third_party/Diffusion-GAN/diffusion-stylegan2/train.py",
+      "status": "already_ok_or_pattern_not_present",
+      "backup_path": null,
+      "applied_replacements": []
+    },
+    {
+      "file_path": "third_party/Diffusion-GAN/diffusion-stylegan2/torch_utils/misc.py",
+      "status": "already_ok_or_pattern_not_present",
+      "backup_path": null,
+      "applied_replacements": []
+    },
+    {
+      "file_path": "third_party/Diffusion-GAN/diffusion-stylegan2/torch_utils/custom_ops.py",
+      "status": "already_ok_or_pattern_not_present",
+      "backup_path": null,
+      "applied_replacements": []
+    },
+    {
+      "file_path": "third_party/Diffusion-GAN/diffusion-stylegan2/training/training_loop.py",
+      "status": "already_ok_or_pattern_not_present",
+      "backup_path": null,
+      "applied_replacements": []
+    },
+    {
+      "file_path": "third_party/Diffusion-GAN/diffusion-stylegan2",
+      "status": "already_ok_or_pattern_not_present",
+      "backup_path": null,
+      "applied_replacements": []
+    }
+  ]
+}

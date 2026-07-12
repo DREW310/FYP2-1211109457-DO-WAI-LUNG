@@ -1,0 +1,27 @@
+{
+  "notebook_tag": "25_train_stylegan3_make_images_dataset2",
+  "seed": 2026,
+  "stylegan_random_seed": 0,
+  "gan_patch_size": 256,
+  "cnn_patch_size": 224,
+  "gan_batch_size": 8,
+  "gan_workers": 3,
+  "gan_kimg": 200,
+  "gan_mirror": true,
+  "snap_ticks": 10,
+  "snapshot_selection_kimg": [
+    40,
+    80,
+    120,
+    160,
+    200
+  ],
+  "ada_target": 0.6,
+  "gan_cfg": "stylegan3-t",
+  "gan_aug": "ada",
+  "gan_augpipe_reference": "color",
+  "stylegan3_gamma": 0.8192,
+  "kid_metric_name": "kid50k_full",
+  "generated_manifest_256": "manifests/dataset2_stylegan3_generated_manifest_256.csv",
+  "generated_manifest_224": "manifests/dataset2_stylegan3_generated_manifest_224.csv"
+}

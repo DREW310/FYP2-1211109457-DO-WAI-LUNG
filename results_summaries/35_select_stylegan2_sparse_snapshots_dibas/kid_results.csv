@@ -1,0 +1,6 @@
+fold_id,snapshot_path,snapshot_kimg,kid50k_full
+1,checkpoints/04_train_gan_make_images_dibas/fold_1/00003-fold_1_minority_256-mirror-auto1-kimg200-batch8-ada-target0.6-color/network-snapshot-000160.pkl,160,0.06058334995483027
+2,checkpoints/04_train_gan_make_images_dibas/fold_2/00003-fold_2_minority_256-mirror-auto1-kimg200-batch8-ada-target0.6-color/network-snapshot-000200.pkl,200,0.07207675199072865
+3,checkpoints/04_train_gan_make_images_dibas/fold_3/00003-fold_3_minority_256-mirror-auto1-kimg200-batch8-ada-target0.6-color/network-snapshot-000200.pkl,200,0.029699960272640116
+4,checkpoints/04_train_gan_make_images_dibas/fold_4/00002-fold_4_minority_256-mirror-auto1-kimg200-batch8-ada-target0.6-color/network-snapshot-000200.pkl,200,0.061661528483412685
+5,checkpoints/04_train_gan_make_images_dibas/fold_5/00002-fold_5_minority_256-mirror-auto1-kimg200-batch8-ada-target0.6-color/network-snapshot-000200.pkl,200,0.035032638656697625

@@ -1,0 +1,17 @@
+{
+  "dataset_name": "dataset2",
+  "source_notebook_tag": "14_train_gan_make_images_dataset2",
+  "notebook_tag": "36_select_stylegan2_sparse_snapshots_dataset2",
+  "no_gan_retraining": true,
+  "snapshot_selection_kimg": [
+    40,
+    80,
+    120,
+    160,
+    200
+  ],
+  "kid_metric_name": "kid50k_full",
+  "generated_manifest_256": "manifests/dataset2_stylegan2_sparse_generated_manifest_256.csv",
+  "generated_manifest_224": "manifests/dataset2_stylegan2_sparse_generated_manifest_224.csv",
+  "source_type": "stylegan2_sparse_generated"
+}

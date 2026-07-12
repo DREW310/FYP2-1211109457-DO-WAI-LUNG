@@ -1,0 +1,6 @@
+fold_id,source_dir,dataset_zip_path
+1,gan_patches_256/dataset2/fold_1,results/25_train_stylegan3_make_images_dataset2/fold_1/fold_1_minority_256.zip
+2,gan_patches_256/dataset2/fold_2,results/25_train_stylegan3_make_images_dataset2/fold_2/fold_2_minority_256.zip
+3,gan_patches_256/dataset2/fold_3,results/25_train_stylegan3_make_images_dataset2/fold_3/fold_3_minority_256.zip
+4,gan_patches_256/dataset2/fold_4,results/25_train_stylegan3_make_images_dataset2/fold_4/fold_4_minority_256.zip
+5,gan_patches_256/dataset2/fold_5,results/25_train_stylegan3_make_images_dataset2/fold_5/fold_5_minority_256.zip

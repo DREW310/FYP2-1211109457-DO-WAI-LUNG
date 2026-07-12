@@ -1,0 +1,6 @@
+round_id,train_fold_id,test_fold_ids,raw_train_sample_count,raw_test_sample_count,real_train_patch_count,gan_train_patch_count,total_train_patch_count,test_patch_count,real_train_cocci_count,real_train_bacilli_count,gan_train_cocci_count,gan_train_bacilli_count,train_cocci_count,train_bacilli_count,test_cocci_count,test_bacilli_count
+1,1,"2,3,4,5",29,116,1566,270,1836,6264,648,918,270,0,918,918,2592,3672
+2,2,"1,3,4,5",29,116,1566,270,1836,6264,648,918,270,0,918,918,2592,3672
+3,3,"1,2,4,5",29,116,1566,270,1836,6264,648,918,270,0,918,918,2592,3672
+4,4,"1,2,3,5",29,116,1566,270,1836,6264,648,918,270,0,918,918,2592,3672
+5,5,"1,2,3,4",29,116,1566,270,1836,6264,648,918,270,0,918,918,2592,3672

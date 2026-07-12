@@ -1,0 +1,6 @@
+fold_id,snapshot_path,snapshot_kimg,kid50k_full
+1,checkpoints/39_train_diffusion_gan_make_images_dibas/fold_1/00000-fold_1_minority_256-mirror-auto1-batch8-target0.6-ada_kimg100-ts_dist-priority-image_augno-noise_sd0.05-diffusion_gan_dibas_fold_1/network-snapshot-000200.pkl,200,0.0553397573530674
+2,checkpoints/39_train_diffusion_gan_make_images_dibas/fold_2/00000-fold_2_minority_256-mirror-auto1-batch8-target0.6-ada_kimg100-ts_dist-priority-image_augno-noise_sd0.05-diffusion_gan_dibas_fold_2/network-snapshot-000200.pkl,200,0.05876568704843521
+3,checkpoints/39_train_diffusion_gan_make_images_dibas/fold_3/00000-fold_3_minority_256-mirror-auto1-batch8-target0.6-ada_kimg100-ts_dist-priority-image_augno-noise_sd0.05-diffusion_gan_dibas_fold_3/network-snapshot-000160.pkl,160,0.1463191956281662
+4,checkpoints/39_train_diffusion_gan_make_images_dibas/fold_4/00000-fold_4_minority_256-mirror-auto1-batch8-target0.6-ada_kimg100-ts_dist-priority-image_augno-noise_sd0.05-diffusion_gan_dibas_fold_4/network-snapshot-000160.pkl,160,0.08134381473064423
+5,checkpoints/39_train_diffusion_gan_make_images_dibas/fold_5/00000-fold_5_minority_256-mirror-auto1-batch8-target0.6-ada_kimg100-ts_dist-priority-image_augno-noise_sd0.05-diffusion_gan_dibas_fold_5/network-snapshot-000200.pkl,200,0.027531282976269722

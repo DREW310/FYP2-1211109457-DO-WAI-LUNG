@@ -1,0 +1,4 @@
+cnn_seed,fold_count,mean_accuracy,std_accuracy,mean_balanced_accuracy,std_balanced_accuracy,mean_macro_f1,std_macro_f1
+2026,5,0.906289,0.188999,0.892372,0.219353,0.86495,0.28098
+2027,5,0.985583,0.015614,0.984632,0.017765,0.985218,0.016074
+2028,5,0.916381,0.162861,0.903331,0.190733,0.888969,0.22362

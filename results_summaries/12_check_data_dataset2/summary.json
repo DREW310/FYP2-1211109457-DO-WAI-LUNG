@@ -1,0 +1,10 @@
+{
+  "notebook_tag": "12_check_data_dataset2",
+  "image_count": 427,
+  "species_count": 7,
+  "cocci_image_count": 180,
+  "bacilli_image_count": 247,
+  "exact_duplicate_count": 0,
+  "unique_image_size_count": 54,
+  "image_manifest_path": "manifests/dataset2_image_manifest.csv"
+}

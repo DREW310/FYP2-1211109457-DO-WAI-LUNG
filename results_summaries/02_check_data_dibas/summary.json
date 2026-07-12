@@ -1,0 +1,12 @@
+{
+  "notebook_tag": "02_check_data_dibas",
+  "slide_count": 145,
+  "species_count": 7,
+  "cocci_slide_count": 60,
+  "bacilli_slide_count": 85,
+  "expected_image_size": [
+    2048,
+    1532
+  ],
+  "slide_manifest_path": "manifests/slide_manifest.csv"
+}

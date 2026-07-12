@@ -1,0 +1,11 @@
+{
+  "notebook_tag": "21_compare_main_results_dataset2",
+  "run_tags": [
+    "15_resnet50_baseline_dataset2",
+    "16_resnet50_gan_dataset2",
+    "17_efficientnetv2s_baseline_dataset2",
+    "18_efficientnetv2s_gan_dataset2",
+    "19_convnextv2nano_baseline_dataset2",
+    "20_convnextv2nano_gan_dataset2"
+  ]
+}
