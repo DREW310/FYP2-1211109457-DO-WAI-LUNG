@@ -4,7 +4,7 @@ Source code package for the FYP2 project:
 
 **Binary cocci-vs-bacilli morphology classification with GAN minority balancing.**
 
-## Project information
+## Project Information
 
 - Student name: DO WAI LUNG
 - Student ID: 1211109457
@@ -20,13 +20,13 @@ The main task is binary classification:
 
 The project uses source-level splitting to prevent data leakage. Source images are assigned to folds before patches are extracted, so patches from the same source image are not used in both training and testing in the same round.
 
-## Repository contents
+## Repository Contents
 
 This repository contains the source code and small audit files needed to understand and rerun the project:
 
 - `notebooks/` — Jupyter notebooks for data checking, splitting, GAN training, CNN training, comparison, and final figure generation.
 - `manifests/` — final slide, fold, patch, and GAN-generated patch manifests.
-- `figures/` — final report figures generated from the experiment results.
+- `figures/final_report_updated/` — final report figures generated from the experiment results.
 - `results_summaries/` — small metric summaries and comparison outputs. Large prediction files and training histories are not included.
 - `third_party/` — local copies of the GAN source-code dependencies used by the notebooks.
 - `requirements.txt` — main Python package list.
@@ -63,7 +63,7 @@ Only selected foodborne-pathogen-related species are used. The selected species 
 
 After downloading the datasets, place them according to the path settings in the configuration cells near the top of the notebooks. If your local folder names are different, update only the path variables in those configuration cells.
 
-## Tested environment
+## Tested Environment
 
 The main experiments were run on a Windows PC with an NVIDIA RTX 4060 GPU.
 
@@ -119,7 +119,7 @@ This is checked in:
 notebooks/01_setup_gpu.ipynb
 ```
 
-## Execution order
+## Execution Order
 
 Run the notebooks from top to bottom. Each notebook has a configuration cell near the top.
 
@@ -175,7 +175,7 @@ Run the corresponding baseline and GAN-balanced notebooks in `notebooks/`.
 63_generate_final_report_figures.ipynb
 ```
 
-## Method notes
+## Method Notes
 
 - Source images are split before patches are extracted.
 - Species names are used only for stratified splitting, auditing, and checking species-level behaviour inside the binary task.
@@ -184,7 +184,7 @@ Run the corresponding baseline and GAN-balanced notebooks in `notebooks/`.
 - Test sets contain real held-out patches only.
 - Original microscope noise is kept; the images are not denoised or cleaned.
 
-## Reproducibility notes
+## Reproducibility Notes
 
 The repository includes final manifests and small result summaries for checking. Full reruns require the public datasets and a CUDA-capable GPU.
 
