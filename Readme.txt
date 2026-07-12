@@ -4,6 +4,15 @@ Source code package for the FYP2 project:
 
 **Binary cocci-vs-bacilli morphology classification with GAN minority balancing.**
 
+## Project information
+
+- Student name: DO WAI LUNG
+- Student ID: 1211109457
+- Programme: Final Year Project 2
+- Session: March/April 2026
+- Faculty: Faculty of Information Science and Technology
+- University: Multimedia University
+
 The main task is binary classification:
 
 - `cocci = 0`
